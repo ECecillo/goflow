@@ -1,13 +1,12 @@
 # TODO
 
-- [ ] Faire une image docker de l'app
-- [ ] Setup un github workflow pour deploy l'image sur le registry github
-
 - [ ] Show an elapsed time when "start" is enter.
 - [ ] Create a task.
   - [ ] Title
   - [ ] Description
   - [ ] Tags
+- [ ] Write the task to a file in the format of a JSON.
+- [ ] Start the application and check if there is a file with tasks.
 
 # Project goflow
 
@@ -50,16 +49,17 @@ run the application
 make run
 ```
 
-Create DB container
+build the docker image of the application
+
+```bash
+make docker-build
+```
+
+run the docker image of the application and create a volume
+to store the data written by the app.
 
 ```bash
 make docker-run
-```
-
-Shutdown DB container
-
-```bash
-make docker-down
 ```
 
 live reload the application
@@ -79,4 +79,3 @@ clean up binary from the last build
 ```bash
 make clean
 ```
-

@@ -13,7 +13,8 @@ docker-build:
 	@docker build -t goflow .
 
 docker-run:
-	@docker run --name goflow --rm -i goflow
+	@docker run --name goflow -v goflow:/data --rm -i goflow
+
 # Test the application
 test:
 	@echo "Testing..."
