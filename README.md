@@ -1,6 +1,9 @@
 # TODO
 
-- [ ] Show an elapsed time when "start" is enter.
+- [x] Show an elapsed time based on "start" and "stop" command.
+- [ ] Display the elapsing time every second.
+- [ ] On "break" command show the break time and replace the current elapsing time by the break time.
+
 - [ ] Create a task.
   - [ ] Title
   - [ ] Description
