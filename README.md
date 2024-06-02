@@ -1,15 +1,40 @@
-# TODO
+## TODO
+
+## Project
+
+## Time
 
 - [x] Show an elapsed time based on "start" and "stop" command.
-- [ ] Display the elapsing time every second.
-- [ ] On "break" command show the break time and replace the current elapsing time by the break time.
+- [x] Display the elapsing time every second.
+- [x] Replace each tick by the new one.
+- [x] Show elapsing time at the top
+- [x] On "break" command show the break time and replace the current elapsing
+      time by the break time.
+
+## TUI Time
+
+- [ ] Add "Reset" option that set to null start, stop, time and break time
+
+- [ ] On "Break Time" option select, replace the current choice by :
+  - [ ] "Start Break Time"
+  - [ ] "Stop Break Time"
+  - [ ] "Skip Break Time"
+    - [ ] Open a quick window and ask user with a "Yes" "No"
+          option if he really want to skip the break time.
+
+## Task
 
 - [ ] Create a task.
+
   - [ ] Title
   - [ ] Description
   - [ ] Tags
+
 - [ ] Write the task to a file in the format of a JSON.
+      (Consider using an interface so we can implement other techniques later)
 - [ ] Start the application and check if there is a file with tasks.
+
+## TUI Task (later)
 
 # Project goflow
 
