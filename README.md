@@ -38,7 +38,7 @@
 
 # Project goflow
 
-The idea of this project is to emulate the same system of the [Fomodor](https://flowmodor.com/)
+The idea of this project is to emulate the same system of the [Flowmodor](https://flowmodor.com/)
 website but in the terminal.
 
 Flowmodor works as follows:
