@@ -2,16 +2,9 @@
 
 ## Project
 
-## Time
-
-- [x] Show an elapsed time based on "start" and "stop" command.
-- [x] Display the elapsing time every second.
-- [x] Replace each tick by the new one.
-- [x] Show elapsing time at the top
-- [x] On "break" command show the break time and replace the current elapsing
-      time by the break time.
-
 ## TUI Time
+
+- [ ] Remplacer le timer actuel et sa logique d'affichage avec le timer built-in de bubbles
 
 - [ ] Add "Reset" option that set to null start, stop, time and break time
 
